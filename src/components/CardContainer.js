@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card'
 
 
-const CardContainer = ({updateCart}) => {
+const CardContainer = ({ updateCart }) => {
     return (
         <div className="cardContainer">
             <Card updateCart={updateCart} />

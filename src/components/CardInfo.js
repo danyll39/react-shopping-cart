@@ -3,11 +3,12 @@ import Button from './useableComponents.js/Button'
 
 
 
-const CardInfo = ( {shoePrice, updateCart} ) => {
-    return(
+const CardInfo = ({ fruitPrice, fruitName, updateCart }) => {
+    return (
         <div className="cardInfo">
-<p>${shoePrice}</p>
-<Button addItem={updateCart} />
+            <p>${fruitPrice}</p>
+            
+            <Button addItem={updateCart} />
         </div>
     )
 }

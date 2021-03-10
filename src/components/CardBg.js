@@ -2,10 +2,10 @@ import React from 'react'
 
 
 
-const CardBg = ({ shoeImg }) => {
+const CardBg = ({ fruitImg }) => {
     return (
         <div className="cardBg">
-            <img src={shoeImg} alt="shoe" />
+            <img src={fruitImg} alt="fruit" />
         </div>
     )
 }

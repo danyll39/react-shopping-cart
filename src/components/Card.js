@@ -1,20 +1,23 @@
 import React from 'react'
 import CardBg from './CardBg'
 import CardInfo from './CardInfo'
-import ShoeData from './ShoeData'
+import FruitData from './FruitData'
 
 
-const Card = ({updateCart}) => {
+const Card = ({ updateCart, fruitName }) => {
     return (
         <>
-       {ShoeData.map((shoe, index) => (
-           <div key={index} className="card">
-               <CardBg shoeImg={shoe.cardImg} />
-               <CardInfo 
-               shoePrice={shoe.cardPrice}
-               updateCart={() => updateCart(shoe.cardImg, shoe.cardPrice)} />
-           </div>
-       ))}
+            {FruitData.map((fruit, index) => (
+                <div key={index} className="card">
+                    <div className="fruitName">
+                        <h5>{fruit.fruitName}</h5>
+                    </div>
+                    <CardBg fruitImg={fruit.cardImg} />
+                    <CardInfo
+                        fruitPrice={fruit.cardPrice}
+                        updateCart={() => updateCart(fruit.cardImg, fruit.cardPrice)} />
+                </div>
+            ))}
         </>
     )
 }
