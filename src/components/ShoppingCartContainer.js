@@ -2,7 +2,6 @@ import React from 'react'
 import ShoppingCart from './ShoppingCart'
 import TotalPrice from './TotalPrice'
 
-
 const ShoppingCartContainer = (props) => {
     const { hiddenMenu, cartItems, totalPrice, itemCount, removeItem } = props
 
@@ -14,7 +13,5 @@ const ShoppingCartContainer = (props) => {
 
     )
 }
-
-
 
 export default ShoppingCartContainer

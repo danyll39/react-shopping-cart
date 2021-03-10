@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from './Card'
 
-
 const CardContainer = ({ updateCart }) => {
     return (
         <div className="cardContainer">
@@ -10,7 +9,5 @@ const CardContainer = ({ updateCart }) => {
 
     )
 }
-
-
 
 export default CardContainer

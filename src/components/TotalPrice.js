@@ -1,7 +1,6 @@
 import React from 'react'
 import CartImg from '../img/cart.png'
 
-
 const TotalPrice = ({ totalPrice, itemCount }) => {
     return (
         <div className="shoppingCartPrice">
@@ -17,6 +16,5 @@ const TotalPrice = ({ totalPrice, itemCount }) => {
         </div>
     )
 }
-
 
 export default TotalPrice

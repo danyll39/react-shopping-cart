@@ -1,8 +1,6 @@
 import React from 'react'
 import Button from './useableComponents.js/Button'
 
-
-
 const CardInfo = ({ fruitPrice, fruitName, updateCart }) => {
     return (
         <div className="cardInfo">
@@ -12,6 +10,5 @@ const CardInfo = ({ fruitPrice, fruitName, updateCart }) => {
         </div>
     )
 }
-
 
 export default CardInfo

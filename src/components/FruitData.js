@@ -5,8 +5,6 @@ import Strawberry from '../img/strawberry.png'
 import Peach from '../img/peach.png'
 import Orange from '../img/orange.png'
 
-
-
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {

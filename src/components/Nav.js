@@ -1,7 +1,6 @@
 import React from 'react'
 import Container from './useableComponents.js/Container'
 
-
 const Nav = ({ hiddenMenu, setHiddenMenu, itemCount }) => {
     return (
         <nav>
@@ -19,6 +18,5 @@ const Nav = ({ hiddenMenu, setHiddenMenu, itemCount }) => {
 
     )
 }
-
 
 export default Nav

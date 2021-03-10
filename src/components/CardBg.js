@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 const CardBg = ({ fruitImg }) => {
     return (
         <div className="cardBg">
@@ -9,6 +7,5 @@ const CardBg = ({ fruitImg }) => {
         </div>
     )
 }
-
 
 export default CardBg

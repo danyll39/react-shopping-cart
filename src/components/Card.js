@@ -3,7 +3,6 @@ import CardBg from './CardBg'
 import CardInfo from './CardInfo'
 import FruitData from './FruitData'
 
-
 const Card = ({ updateCart, fruitName }) => {
     return (
         <>
